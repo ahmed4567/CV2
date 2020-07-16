@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    background-color: #202040;
+}
+
+h1 {
+    color: #b030b0;
+    font-size: 90px;
+    font-family: 'Sacramento', cursive;
+    font-weight: normal;
+}
+
+hr {
+    background-color: none;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: lightblue;
+    border-width: 5px;
+    width: 5%;
+}
+
+h2 {
+    color: #827397;
+    font-weight: normal;
+}
+
+h3 {
+    color: #4d4c7d;
+}
+
+p {
+    color: #d8b9c3;
+}
+
+img :hover {
+    background-color: violet;
+}
+
+.topBox {
+    margin: 30px auto 30px auto;
+    border-style: none;
+    padding: 0px;
+}
+
+.midBox {
+    border-style: solid;
+    border-width: 20px;
+    margin-left: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.botBox {
+    border-style: solid;
+    border-width: 10px;
+    margin-left: 400px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.top-cloud {
+    position: relative;
+    left: 150px;
+}
+
+.bot-cloud {
+    position: absolute;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.profile {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.profilepic {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border: 5px solid #827397;
+    border-radius: 50%;
+}
+
+.skill2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border: 5px solid #827397;
+    border-radius: 50%;
+}
+
+.skill3 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border: 5px solid #827397;
+    border-radius: 50%;
+}
